@@ -1,0 +1,30 @@
+{
+  "tickets":[
+
+ {
+    "destination": "vladivostok-telAviv",
+    "flightTime": 7
+  },
+
+  {
+    "destination": "vladivostok-telAviv",
+    "flightTime": 3
+  },
+ {
+   "destination": "vladivostok-telAviv",
+   "flightTime": 8
+  },
+  {
+    "destination":"vladivostok-telAviv",
+    "flightTime": 4
+  },
+    {
+      "destination":"vladivostok-samara",
+      "flightTime": 6
+    },
+  {
+    "destination": "vladivostok-telAviv",
+    "flightTime": 30
+  }
+]
+}

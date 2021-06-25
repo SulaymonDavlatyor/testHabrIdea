@@ -15,10 +15,11 @@ public class App {
         JsonArray pItem = mainObject.getAsJsonArray("tickets");
 
         ArrayList ticketsTime = new ArrayList();
+        String currentDest = "vladivostok-telAviv";
 
         for (JsonElement ticket : pItem) {
             JsonObject userObject = ticket.getAsJsonObject();
-            if (userObject.get("destination").getAsString().equals("vladivostok-telAviv")) {
+            if (userObject.get("destination").getAsString().equals(currentDest)) {
                 ticketsTime.add(userObject.get("flightTime").getAsInt());
             }
         }
